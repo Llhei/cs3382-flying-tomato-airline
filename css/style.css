@@ -1,0 +1,97 @@
+html {
+  background-color: white;
+}
+
+body {
+  margin-top: 50px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #5E5C5C;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+footer p {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background-color: #E53320;
+  border: 0;
+  color: #E1F5C4;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header img {
+  padding: 5px;
+  height :50px;
+}
+
+.navbar-brand
+{
+  padding-top: 0;
+}
+
+.jumbotron{
+  margin-bottom: 0px;
+}
+
+/*Banner*/
+
+.banner {
+  background-color: #E53320;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  position: relative;
+  box-shadow: 0 2px 5px #6A4A3C;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Navigation (search, rating, promotion, about us)*/
+.navigation i {
+  margin: 10px;
+}
+
+/*forms*/
+form {
+  color: #5E5C5C;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+/*footer*/
+footer {
+  padding: 5px;
+  background-color: #E53320;
+  box-shadow: 0 -2px 5px
+}
+
+.footer-item {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding: 20px;
+  text-align: center;
+
+}
+
+#disclaimer {
+  font-size: 80%;
+  padding: 5px;
+}

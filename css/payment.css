@@ -1,0 +1,22 @@
+
+form {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.radiobox {
+  padding: 20px;
+}
+
+
+.flight-info, .customer-info {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form-group {
+  margin-top: 30px;
+}

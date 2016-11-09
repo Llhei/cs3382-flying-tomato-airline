@@ -1,0 +1,18 @@
+.search-result {
+  margin-top: 80px;
+
+}
+
+.search-result .result-item {
+  border: solid 1px black;
+  padding: 20px;
+}
+
+.result-item p {
+  color: black;
+}
+
+.result-item img {
+  height: 100px;
+  width: 100px;
+}
