@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://llhei.github.io/cs3382-flying-tomato-airline/html/homepage.html</loc>
+  <lastmod>2016-11-09T07:32:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://llhei.github.io/cs3382-flying-tomato-airline/html/Search.html</loc>
+  <lastmod>2016-11-09T07:32:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://llhei.github.io/cs3382-flying-tomato-airline/html/Result.html</loc>
+  <lastmod>2016-11-09T07:32:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://llhei.github.io/cs3382-flying-tomato-airline/html/detail.html</loc>
+  <lastmod>2016-11-09T07:32:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://llhei.github.io/cs3382-flying-tomato-airline/html/Payment.html</loc>
+  <lastmod>2016-11-09T07:32:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>https://llhei.github.io/cs3382-flying-tomato-airline/html/confirm.html</loc>
+  <lastmod>2016-11-09T07:32:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
