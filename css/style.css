@@ -40,28 +40,10 @@ footer p {
 
 .navbar-brand
 {
-  padding-top: 0;
+  margin-top: -5px;
+
 }
 
-.jumbotron{
-  margin-bottom: 0px;
-}
-
-/*Banner*/
-
-.banner {
-  background-color: #E53320;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: block;
-  position: relative;
-  box-shadow: 0 2px 5px #6A4A3C;
-}
-
-.banner img {
-  max-width: 100%;
-  height: auto;
-}
 
 /*Navigation (search, rating, promotion, about us)*/
 .navigation i {
@@ -77,7 +59,6 @@ form {
 
 /*footer*/
 footer {
-  padding: 5px;
   background-color: #E53320;
   box-shadow: 0 -2px 5px
 }
@@ -86,7 +67,7 @@ footer {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 
 }

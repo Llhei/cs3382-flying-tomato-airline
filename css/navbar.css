@@ -67,3 +67,20 @@
         color: #333;
     }
 }
+
+.navbar-fixed-top {
+    min-height: 70px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 70px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a, .navbar-header, .navbar-brand {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
