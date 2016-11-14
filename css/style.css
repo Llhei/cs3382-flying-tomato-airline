@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 h1 {
@@ -12,7 +12,9 @@ h1 {
   font-weight: 700;
 }
 
-p {
+
+
+p, h4 {
   color: #5E5C5C;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -75,4 +77,5 @@ footer {
 #disclaimer {
   font-size: 80%;
   padding: 5px;
+  margin: 0;
 }

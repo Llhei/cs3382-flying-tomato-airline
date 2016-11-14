@@ -1,0 +1,28 @@
+
+/*About Us*/
+
+h1 {
+  color: #5E5C5C;
+}
+.About_content{
+  background-color:#F0F0F0;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+@media (min-width: 30em) {
+  .About_content{
+    background-color:#F0F0F0;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+
+@media (min-width: 48em) {
+  .About_content{
+    padding-left: 200px;
+    padding-right: 200px;
+
+  }
+}
