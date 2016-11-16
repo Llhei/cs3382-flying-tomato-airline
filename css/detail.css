@@ -3,7 +3,6 @@
 }
 
 .flight-info {
-  height: 450px;
   border: solid 1px black;
   text-align: center;
   margin-bottom: 20px;
@@ -27,4 +26,11 @@ button {
   color: #5E5C5C;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
+}
+
+@media (min-width: 48em) {
+  .flight-info {
+    height: 450px;
+  }
+
 }

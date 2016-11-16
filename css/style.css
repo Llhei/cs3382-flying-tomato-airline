@@ -12,9 +12,7 @@ h1 {
   font-weight: 700;
 }
 
-
-
-p, h4, h3 {
+a, p, h4, h3 {
   color: #5E5C5C;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
@@ -63,6 +61,12 @@ footer p {
 /*Navigation (search, rating, promotion, about us)*/
 .navigation i {
   margin: 10px;
+}
+
+.nav {
+  color: #5E5C5C;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
 
 /*forms*/

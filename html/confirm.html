@@ -81,40 +81,98 @@
 </nav>
 
 <!-- Payment form -->
-<div class="payment-confirm">
-  <div class="container">
+  <div class="container payment-confirm">
     <div class="row">
       <!--Confirm Info-->
-      <div class="col-sm-8 confirm-info">
+      <div class="col-sm-12 confirm-info">
         <div class="payment-method">
           <p>Payment Method: </p>
           <p id="payment-method">Cash</p>
         </div>
-
         <div class="flight-info">
           <p>Flight Information</p>
+          </br>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <h4>Departing</h4>
+                </br>
+                <p>Date : <input type="text" name="Date" value="Thurs, 17 Nov 2016" disabled></p>
+                <p>Flight : <input type="text" name="Flight" value="FT 1600" size="9"disabled></p>
+                <p>Depart:
+                <input type="text" name="depart_from" value="Hong Kong 08:00" disabled>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                <input type="text" name="depart_to" value="Taipei 12:00" disabled> </p>
+                <p>Adult: <input type="text" name="Adult" value="1" size="3" disabled>
+                Child: <input type="text" name="Child" value="0" size="3"disabled>
+                Infant: <input type="text" name="Infant" value="0" size="3"disabled>
+                </p>
+                <p>Fare: <input type="text" name:="Fare" value="HKD 720" size="9" disabled></p>
+                  <p><i>Airport Consrtuction Fee: <input type="text" name:="AirCon" value="1 x HKD 90" size="12" disabled></i></p>
+                  <p><i>HK Air Passenger Departure Tax: <input type="text" name:="AirCon" value="1 x HKD 120" size="12" disabled></i></p>
+                  <p><i>HK Security Charge: <input type="text" name:="AirCon" value="1 x HKD 45" size="12" disabled></i></p>
+              </div>
+              <div class="col-sm-6">
+                <h4>Returning</h4><br>
+                <p>Date : <input type="text" name="Date" value="Sun, 20 Nov 2016" disabled></p>
+                <p>Flight : <input type="text" name="Flight" value="FT 1800" size="9"disabled></p>
+                <p>Depart:
+                <input type="text" name="depart_from" value="Taipei 13:00" disabled>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                <input type="text" name="depart_to" value="Hong Kong 14:30" disabled> </p>
+                <p>Adult: <input type="text" name="Adult" value="1" size="3" disabled>
+                Child: <input type="text" name="Child" value="0" size="3"disabled>
+                Infant: <input type="text" name="Infant" value="0" size="3"disabled>
+                </p>
+                <p>Fare: <input type="text" name:="Fare" value="HKD 1,093" size="9" disabled></p>
+                  <p><i>TW Airport Service Charge: <input type="text" name:="AirCon" value="1 x HKD 130" size="12" disabled></i></p>
+                </br></br>
+                <h3>Total: <input type="text" name:="Fare" value="HKD 1,813" size="9" disabled></h3>
+              </div>
+            </div>
+          </div>
         </div>
-
         <div class="customer-info">
-          <p>Customer Information</p>
-        </div>
-      </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-10">
+                <p>Customer Information</p>
+                <!-- Name -->
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="Name">Name:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Name" placeholder="Leo CHAN">
+                  </div>
+                </div>
+                <!--Date-->
 
-      <!-- img -->
-      <div class="col-sm-4">
+                <!--ID No.-->
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="FlightNo">ID No:</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="IDNo" placeholder="Y1094823">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
       <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default pull-right"><a class="submit" href="homepage.html">Confirm</a></button>
+        <div class="col-sm-12">
+          <button type="submit" onclick="alertMsg()" class="btn btn-default pull-right"><a class="submit" href="homepage.html">Confirm</a></button>
           <button type="submit" class="btn btn-default pull-right"><a class="submit" href="Payment.html">Edit</a></button>
         </div>
       </div>
-
-
-
     </div>
   </div>
-</div>
+
+  <script>
+    function alertMsg() {
+        alert("Thank you! Payment successful!");
+    }
+  </script>
 
 <!-- Footer (About Us, FAQ, Join Us) -->
 <footer>
