@@ -1,9 +1,10 @@
 
 
-
 $(document).ready(function(){
   setTimeout(showbutton, 1500);
   $("#showPage").click(showPage);
+  $(".searchBox").click(SearchLink);
+  $(".aboutUsBox").click(AboutUsLink);
 });
 
 function showbutton() {
@@ -16,5 +17,12 @@ function showPage() {
   $(".loader").fadeOut(1000, function(){
     $(".navigation, footer, .container").fadeIn()
   });
+}
 
+function SearchLink() {
+    window.location.href = "Search.html";
+}
+
+function AboutUsLink() {
+    window.location.href = "AboutUs.html";
 }

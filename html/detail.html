@@ -20,6 +20,7 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <link rel="stylesheet" type="text/css" href="../css/navbar.css">
 <link rel="stylesheet" type="text/css" href="../css/detail.css">
+</head>
 <body>
 
 <!-- Header -->
@@ -82,10 +83,42 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 flight-info">
-        <p>flight info</p>
+        <h3><i class="fa fa-plane" aria-hidden="true"></i> Flight Info <i class="fa fa-plane" aria-hidden="true"></i> </h3>
+        <h4>Departing<h4/><br>
+        <p>Date : <input type="text" name="Date" value="Thurs, 17 Nov 2016" disabled></p>
+        <p>Flight : <input type="text" name="Flight" value="FT 1600" size="9"disabled></p>
+        <p>Depart:
+        <input type="text" name="depart_from" value="Hong Kong 08:00" disabled>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        <input type="text" name="depart_to" value="Taipei 12:00" disabled> </p>
+        <p>Adult: <input type="text" name="Adult" value="1" size="3" disabled>
+        Child: <input type="text" name="Child" value="0" size="3"disabled>
+        Infant: <input type="text" name="Infant" value="0" size="3"disabled>
+        </p>
+        <p>Fare: <input type="text" name:="Fare" value="HKD 720" size="9" disabled></p>
+          <p><i>Airport Consrtuction Fee: <input type="text" name:="AirCon" value="1 x HKD 90" size="12" disabled></i></p>
+          <p><i>HK Air Passenger Departure Tax: <input type="text" name:="AirCon" value="1 x HKD 120" size="12" disabled></i></p>
+          <p><i>HK Security Charge: <input type="text" name:="AirCon" value="1 x HKD 45" size="12" disabled></i></p>
+        <br>
       </div>
       <div class="col-sm-6 flight-info">
-        <p>flight info</p>
+        <h3><i class="fa fa-plane" aria-hidden="true"></i> Flight Info <i class="fa fa-plane" aria-hidden="true"></i> </h3>
+        <h4>Returning<h4/><br>
+        <p>Date : <input type="text" name="Date" value="Sun, 20 Nov 2016" disabled></p>
+        <p>Flight : <input type="text" name="Flight" value="FT 1800" size="9"disabled></p>
+        <p>Depart:
+        <input type="text" name="depart_from" value="Taipei 13:00" disabled>
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        <input type="text" name="depart_to" value="Hong Kong 14:30" disabled> </p>
+        <p>Adult: <input type="text" name="Adult" value="1" size="3" disabled>
+        Child: <input type="text" name="Child" value="0" size="3"disabled>
+        Infant: <input type="text" name="Infant" value="0" size="3"disabled>
+        </p>
+        <p>Fare: <input type="text" name:="Fare" value="HKD 1,093" size="9" disabled></p>
+          <p><i>TW Airport Service Charge: <input type="text" name:="AirCon" value="1 x HKD 130" size="12" disabled></i></p>
+
+        <h3>Total: <input type="text" name:="Fare" value="HKD 1,813" size="9" disabled></h3>
+        <br>
       </div>
     </div>
   </div>
@@ -116,12 +149,13 @@
     </div>
   </div>
 
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default pull-right"><a class="submit" href="Payment.html">Next</a></button>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default pull-right"><a class="submit" href="Payment.html">Purchase</a></button>
+        <button type="submit" class="btn btn-default pull-right"><a class="submit" href="Result.html">Back</a></button>
+        <button type="submit" class="btn btn-default pull-right"><a class="submit" href="Search.html">Modify Search</a></button>
+      </div>
     </div>
-  </div>
-  
 </div>
 
 
@@ -133,15 +167,15 @@
   <div class="container footer">
     <div class="row">
       <div class="col-sm-4 footer-item">
-        <i class="fa fa-user fa-4x" aria-hidden="true"></i>
+        <i class="fa fa-user fa-2x" aria-hidden="true"></i>
         <p>About Us</p>
       </div>
       <div class="col-sm-4 footer-item">
-        <i class="fa fa-question-circle-o fa-4x" aria-hidden="true"></i>
+        <i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i>
         <p>FAQ</p>
       </div>
       <div class="col-sm-4 footer-item">
-        <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <p>Join Us</p>
       </div>
     </div>

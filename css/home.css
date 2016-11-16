@@ -100,6 +100,12 @@ body {
   padding-top: 100px;
 }
 
+#showPage {
+  color: #5E5C5C;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 100%;
@@ -122,6 +128,14 @@ body {
 
 }
 
+.flex-item:hover {
+  color: #5E5C5C;
+  text-shadow: 1px 1px grey;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
 /*mobile (small) screen*/
 .flex-container > .flex-item{
     flex: 0 0 100%;
@@ -137,6 +151,7 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 1;
+
 }
 
 .flex-item:nth-child(1)::before {

@@ -2,12 +2,8 @@
   padding: 40px;
 }
 
-.seat p, .rating p {
-  color: black;
-}
-
 .flight-info {
-  height: 400px;
+  height: 450px;
   border: solid 1px black;
   text-align: center;
   margin-bottom: 20px;
@@ -15,4 +11,20 @@
 
 .flight-info p {
   color: black;
+  text-align: left;
+}
+
+h3{
+  color: #FF4E50;
+}
+
+.flight-info p input {
+  color: #5E5C5C;
+}
+
+button {
+  margin-left: 10px;
+  color: #5E5C5C;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }

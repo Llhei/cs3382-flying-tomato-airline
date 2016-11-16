@@ -14,9 +14,22 @@ h1 {
 
 
 
-p, h4 {
+p, h4, h3 {
   color: #5E5C5C;
   font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #5E5C5C;
+}
+
+a:hover {
+  color: #5E5C5C;
+  text-decoration: none;
+}
+
+label {
   font-weight: 400;
 }
 
