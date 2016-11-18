@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   setTimeout(showbutton, 1500);
-  $("#showPage").click(showPage);
+  $("#showPage, #skiptocontent").click(showPage);
   $(".searchBox").click(SearchLink);
   $(".aboutUsBox").click(AboutUsLink);
 });

@@ -27,7 +27,11 @@
 
 <body>
 
-<!-- Header -->
+<!-- skip naviation -->
+<div id="skiptocontent">
+  <a href="#main">skip to main content</a>
+</div>
+
 <!--navigation bar-->
 
 <nav class="navbar navbar-default navbar-fixed-top header">
@@ -153,7 +157,7 @@
 </div>
 
 <!--  Main body (search,Rating,Promotion,About Us)  -->
-<div class="navigation flex-container" style="display:none;">
+<div class="navigation flex-container" id="main" style="display:none;">
   <div class="flex-item searchBox"><a href="Search.html"><i class="fa fa-search fa-4x" aria-hidden="true"></i>Search</a></div>
   <div class="flex-item"><i class="fa fa-star-o fa-4x" aria-hidden="true"></i>Rating</div>
   <div class="flex-item"><i class="fa fa-thumbs-o-up fa-4x" aria-hidden="true"></i>Promotion</div>
